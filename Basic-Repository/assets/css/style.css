@@ -1,0 +1,52 @@
+body{
+    width: 960px;
+    background-color: lightblue
+}
+
+.top{
+    width: 100%;
+    background-color: whitesmoke
+}
+h1 {
+    width: 20%;
+    background-color: teal;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 0px 90px;
+}
+.midPage{
+    width: 650px;
+    height: 90%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 90px 0px 90px;
+}
+
+.pageLinks{
+    background-color: whitesmoke;
+    border: solid 4px gray;
+    float: right;
+    position: relative;
+    bottom: 23px;
+    width: 30%;
+    font-size: 15px;
+    margin: 0px 90px 0px 0px;
+}
+
+#socialLinks{
+    width: 270px;
+    background-color: whitesmoke
+}
+
+.footPage, footer{
+    border: solid;
+    border-top-width: 4px;
+    border-top-color: gray;
+    position: fixed;
+    width: 100%;
+    bottom: 30px;
+    text-align: center;
+}
