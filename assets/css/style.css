@@ -1,23 +1,25 @@
 body{
-    width: 960px;
-    background-color: lightblue
+    background-image: url(https://thumbs.dreamstime.com/b/white-watercolor-paper-texture-seamless-square-background-tile-ready-high-quality-extremely-high-resolution-97486805.jpg);
+    background-position: center;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 hr{
-    border-bottom-style: groove;
-    border-bottom-width: 2px;
-    border-bottom-color: lightgray;
+    color: #dddddd);
+    margin: 0px 20px;
+    
 }
 
 .topPage{
-    background-color: #ebebeb;
-    border-bottom-color: gray;
+    background-color: #fff;
+    border-bottom-color: #ccc;
     border-bottom-width: 3px;
     border-bottom-style: solid;
 }
 h1.top {
-    width: 20%;
-    background-color: teal;
+    width: 268px;
+    background-color: #4aaaa5;
     text-align: center;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,6 +27,15 @@ h1.top {
     color: #ebebeb;
     padding: 14px;
     font-weight: bolder;
+}
+
+.pageLinks{
+    float: right;
+    position: relative;
+    bottom: 33px;
+    margin: 0px 240px 0px 0px;
+    font-size: 15px;
+    color: #ccc
 }
 
 h2{
@@ -38,31 +49,38 @@ h2{
 }
 .midPage{
     width: 650px;
-    height: 90%;
     border-style: solid;
     border-width: 4px;
-    border-color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 90px 0px 90px;
-    background-color: #ebebeb;
+    border-color: #dddddd;
+    margin: 30px 150px 0px 89px;
+    background-color: #fff;
 }
 
-.pageLinks{
-    float: right;
-    position: relative;
-    bottom: 33px;
-    right: 215px;
-    font-size: 15px;
-    
+p{
+    text-indent: 10px;
 }
 
-#socialLinks{
+.midPage .sidebar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar{
     width: 270px;
-    background-color: whitesmoke
+    background-color: #fff;
+    height: 210px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #dddddd;
+    margin: -470.6px 0px 295px 815px;
+
 }
 
-.footPage, footer{
-    position: sticky;
-    margin: auto;
+footer {
     text-align: center;
+    font-size: 9px;
+    color: #ccc;
+    background-color: #666666;
+    border-top: solid 1px #4aaaa5;
+    padding: 20px;
 }
