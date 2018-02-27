@@ -4,6 +4,20 @@ body{
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
+wrapper{
+    position: relative;
+    display: flex;
+}
+
+a{
+    color: #ccc;
+    text-decoration-line: none;
+}
+#line{
+    border: solid;
+    border-width: 0px 1px;
+    padding: 5px;
+}
 
 hr{
     color: #dddddd;
@@ -16,6 +30,7 @@ hr{
     border-bottom-color: #ccc;
     border-bottom-width: 3px;
     border-bottom-style: solid;
+    position: relative;
 }
 h1.top {
     width: 268px;
@@ -30,12 +45,11 @@ h1.top {
 }
 
 .pageLinks{
-    float: right;
-    position: relative;
-    bottom: 33px;
-    margin: 0px 240px 0px 0px;
+    position: absolute;
+    bottom: 20px;
+    left: 825px;
     font-size: 15px;
-    color: #ccc
+    color: #ccc;
 }
 
 h2{
@@ -52,7 +66,7 @@ h2{
     border-style: solid;
     border-width: 4px;
     border-color: #dddddd;
-    margin: 30px 150px 0px 89px;
+    margin: 30px 150px 30px 89px;
     background-color: #fff;
 }
 
@@ -60,20 +74,25 @@ p.bio{
     text-indent: 10px;
 }
 
-.midPage .sidebar .msgForm{
+/* Working on a more responsive page layout
+.midPage .sidebar {
     display: flex;
     justify-content: space-around;
+}*/
+.sidebar{
+    display: flex;
+    position: relative;
 }
 
-.sidebar{
+aside {
     width: 270px;
     background-color: #fff;
     height: 210px;
     border-style: solid;
     border-width: 4px;
     border-color: #dddddd;
-    margin: -470.6px 0px 295px 815px;
-
+    position: absolute;
+    margin: 30px 0px 0px 825px;
 }
 
 footer {
@@ -96,9 +115,10 @@ input{
 
 input[type=box]{
     box-sizing: border-box;
-    width: 100%;
-    resize: vertical;
+    width: 75%;
+    height: 75%;
     overflow: auto;
+
 }
 input[type=submit]{
     background-color: #4aaaa5;
@@ -108,3 +128,33 @@ input[type=submit]{
     font-weight: normal;
 }
 
+ol{
+    list-style: none;
+    columns: 2;
+    padding: 20px;
+}
+
+li{
+    z-index: 0;
+    display: block;
+    position: relative;
+    margin: 5px;
+}
+
+.caption{
+    z-index: 1;
+    color: #fff;
+    background-color: #4aaaa5;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+
+nav{
+    display: block;
+    text-align: center;
+}
