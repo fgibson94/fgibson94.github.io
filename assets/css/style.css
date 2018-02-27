@@ -6,8 +6,8 @@ body{
 }
 
 hr{
-    color: #dddddd);
-    margin: 0px 20px;
+    color: #dddddd;
+    margin: 0px 25px;
     
 }
 
@@ -47,7 +47,7 @@ h2{
     
 
 }
-.midPage{
+.midPage {
     width: 650px;
     border-style: solid;
     border-width: 4px;
@@ -56,11 +56,11 @@ h2{
     background-color: #fff;
 }
 
-p{
+p.bio{
     text-indent: 10px;
 }
 
-.midPage .sidebar{
+.midPage .sidebar .msgForm{
     display: flex;
     justify-content: space-around;
 }
@@ -84,3 +84,27 @@ footer {
     border-top: solid 1px #4aaaa5;
     padding: 20px;
 }
+form{
+    color: #777;
+    padding: 25px;
+    ;
+}
+input{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=box]{
+    box-sizing: border-box;
+    width: 100%;
+    resize: vertical;
+    overflow: auto;
+}
+input[type=submit]{
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 25px;
+    color: #ebebeb;
+    font-weight: normal;
+}
+
